@@ -1,0 +1,172 @@
+body {
+    background-color: #792337;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+}
+
+/*html1*/
+.envelope {
+    width: 800px;
+    height: 500px;
+    background-color: #EFCBC6;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: block;
+    position: relative;
+    top: 25px;
+    justify-content: space-between;
+    padding: 3em;
+    box-shadow: .8em .8em 20px grey;
+    z-index: 0;
+
+}
+
+.arrow {
+    border-top: 275px solid #F5E6E8;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 800px;
+    display: block;
+    position: absolute;
+    top: 107px;
+    left: 368px;
+    z-index: 3;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: 6s;
+}
+
+.arrowa {
+    border-top: 200px solid #F8F4E3;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 800px;
+    display: block;
+    position: absolute;
+    top: 107px;
+    left: 368px;
+    z-index: 1;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.button {
+    background-color: #F7747C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: relative;
+    transition: 6s ease;
+    top: -425px;
+    left: 550px;
+    bottom: -191px;
+    z-index: 2;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: #f7f7f7;
+    margin-bottom: -15px;
+}
+
+.arrow:hover {
+    transform: translate(0px, -275px) scaleY(-1);
+    transition: all 2s ease;
+
+
+}
+
+/*HTML2*/
+
+.letter {
+    width: 800px;
+    height: 1000px;
+    background-color: #F8F4E3;
+    margin: 0 auto;
+    border-radius: 2%;
+    display: block;
+    position: relative;
+    top: 25px;
+    justify-content: space-between;
+    padding: 3em;
+    box-shadow: .8em .8em 20px grey;
+    z-index: 0;
+    background-color: #fff;
+    background-image:
+        linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+        linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 3.4em
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #f7f7f7;
+    margin-bottom: -15px;
+}
+
+p.open {
+    display: inline;
+    font-size: 3.5em;
+    text-align: center;
+    align-content: center;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+p.body {
+    display: inline;
+    font-size: 2.5em;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    margin-left: 40px;
+
+}
+
+p.close {
+    font-size: 3em;
+    text-indent: 450px;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    font-weight: bold;
+
+}
+
+img.pol {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+
+}
+
+.gal h1 {
+    text-align: center;
+    font-family: "Brush Script MT", Brush Script Std, cursive;
+    font-weight: bold;
+    color: #F7747C;
+}
+
+.grid {
+    padding: 50px;
+    background-color: #F8F4E3;
+
+}
+
+.grid .photo {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.grid img {
+    border-radius: 50px;
+}
